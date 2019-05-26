@@ -1,0 +1,153 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{徐彩旭}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in emaill address
+\contactInfo{20155227004@stu.suda.edu.cn}{188-9697-0393}{}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+% \contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
+
+\section{\faLightbulbO\  基本信息}
+
+  \subsection{\hspace{0.2cm} \textbf{性\ \ \ 别}:\ 男 \hspace{6.97cm}      \textbf{出生年月}:\ 1993.03.12}
+  \subsection{\hspace{0.2cm} \textbf{籍\ \ \ 贯}:\ 江苏盐城 \hspace{5.7cm} \textbf{政治面貌}:\ 中共党员}
+  \subsection{\hspace{0.2cm} \textbf{学\ \ \ 历}:\ 硕士在读 \hspace{5.7cm} \textbf{研究方向}:\ 机器学习与数据挖掘}
+\medskip
+
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{苏州大学}, 江苏,苏州}{2015-至今}
+\textit{在读硕士}\ 计算机技术 \par
+\textit{专业排名前15\%}
+
+\datedsubsection{\textbf{东南大学成贤学院}, 江苏,南京}{2011-2015}
+\textit{学士}\ 计算机科学与技术 \par
+\textit{专业排名前5\%}
+\medskip
+
+\section{\faUsers\ 实习/项目经历}
+\datedsubsection{\textbf{基于位置社交网络的用户关系强度预测}}{2016.01-2017.02}
+\role{项目属性:}{机器学习项目}
+\role{项目角色:}{独立研究完成}
+\role{主要工具:}{Python3,\ Linux,\ C++,\ MySql,\ Scikit-Learn,\ XGBoost}
+\textit{\ \ \ \ 利用斯坦福大学开源SNAP数据(近亿条签到数据,几百万用户)构建分类模型,预测用户之间的社交关系强度。对任意
+用户对根据模型从高到低排序输出用户关系强度。}
+\begin{itemize}
+  \item 平台搭建(Linux系统+MySql+Python3)
+  \item 数据处理与管理
+  \item 代码编写(多维度抽取特征、构建多视角分类器模型、模型调测)
+\end{itemize}
+\medskip
+
+\datedsubsection{\textbf{城市轨迹相似度计算系统}}{2016.03-2016.08}
+\role{项目属性:}{比赛项目(中国软件杯)}
+\role{项目角色:}{项目主要负责人}
+\role{主要工具:}{Java,\ Python3,\ JS,\ UML,\ Linux,\ Scikit-Learn}
+\textit{\ \ \ \ 利用全国近三千万轨迹数据搭建相似度计算平台,快速响应请求,计算任意两条轨迹的相似度;任意画出一
+条轨迹,从数据库中快速找出与当前所给轨迹最相似的轨迹,并以百度地图动态显示的形式反馈给用户。}
+\begin{itemize}
+  \item 数据的聚类处理与存储;
+  \item 该项目采用BS模式,前台采用JSP+CSS+DIV;
+  \item 后台Java实现，构建基于聚类簇的数据结构(以响应快速读取操作);定义相似度并设计高效算法;
+\end{itemize}
+\medskip
+
+\datedsubsection{\textbf{扫雷游戏设计}}{2014.12-2015.04}
+\role{项目属性:}{课程毕业设计}
+\role{项目角色:}{独立设计开发}
+\role{主要工具:}{Java,\ UML,\ Swing包,\ MySql}
+\textit{\ \ \ \ 分析扫雷游戏需求并用UML建模(包含初级、中级和高级三个级别),记录进行游戏所花费的时间,完成游
+戏则记录最快玩家所花费的时间,并将这些信息写入数据库。}
+\begin{itemize}
+  \item 在面向对象分析阶段利用UML建立用例图和活动图;游戏的图形展示界面利用swing包搭建;
+  \item 在面向对象设计阶段利用UML建立详细类图、类关联图及交互图;并设计递归生成雷区的算法;
+  \item 设置完整的测试用例对游戏进行功能、边界、负面三个层面的测试;
+\end{itemize}
+\medskip
+
+\datedsubsection{\textbf{居民信息管理系统}}{2013.06-2013.09}
+\role{项目属性:}{暑假实习项目}
+\role{项目角色:}{项目参与者}
+\role{主要工具:}{C\#,\ ASP.Net,\ Html,\ CSS,\ JS}
+\textit{\ \ \ \ 对公司原始的客户信息系统进行升级,本人负责整改与添加新功能,整改用户的UI界面,整改信息筛选模
+块(改写Sql语句),添加地图显示小区位置模块。}
+\begin{itemize}
+  \item 整体采用ASP.Net框架，前台使用html、CSS、JS技术;
+  \item 后台使用的是C\#语言，数据库使用MySql数据库;
+  \item 改版后的客户信息管理系统交互性极大提高，界面更加简洁大方;
+\end{itemize}
+\medskip
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言：熟悉 Python、C++、C、Shell、Java; 了解C\#;
+  \item 数据库：熟悉 MySql、Oracle;
+  \item 大数据工具: 了解 Spark、Hive;
+\end{itemize}
+\medskip
+
+\section{\faLanguage\ 语言水平}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 中文(普通话):母语
+  \item 语言: CET-4
+\end{itemize}
+\medskip
+
+\section{\faExpand\ 社会活动}
+\datedline{\textit{院科学与技术协会副部长}}{2012}
+\datedline{\textit{计算机科学与技术学院学工助理}}{2013}
+
+
+\section{\faStar\ 获奖情况}
+\datedline{\textit{用户社交关系预测软件\ 计算机软件著作权}}{2016.05}
+\datedline{\textit{苏州大学三等奖学金}}{2015-2016}
+\datedline{\textit{荣获“东南大学成贤学院优秀毕业生”称号}}{2015.06}
+\datedline{\textit{荣获“东南大学成贤学院三好学生”荣誉称号}}{2013-2014}
+\datedline{\textit{荣获“东南大学成贤学院综合一等奖学金”}}{2013-2014}
+\datedline{\textit{全国计算机二级C语言能力等级证书}}{2013}
+\datedline{\textit{江苏省高等学校计算机二级VFP能力等级证书}}{2013}
+\datedline{\textit{荣获院级二等奖学金}}{2012-2013}
+\datedline{\textit{荣获院级三等奖学金}}{2012-2013}
+\datedline{\textit{荣获院级三等奖学金}}{2011-2012}
+\medskip
+
+\section{\faStarO\ 学科竞赛}
+\datedline{\textit{交通线路通达时间预测, 26名}}{2017.01}
+\datedline{\textit{第五届“中国软件杯”大学生软件设计大赛决赛三等奖}}{2016.08}
+\datedline{\textit{荣获东南大学成贤学院第五届程序设计竞赛二等奖}}{2014.05}
+\datedline{\textit{院级“诚信立人”主题活动网页设计制作大赛一等奖}}{2011}
+\medskip
+
+
+
+\section{\faCamera \ 其他}
+\section{\faArrows \ 其他}
+\section{\faPrint \ 其他}
+\section{\faBook \ 其他}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}

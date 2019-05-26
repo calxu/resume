@@ -1,0 +1,114 @@
+\documentclass{resume}
+
+\begin{document}
+\pagenumbering{gobble}
+
+\name{XuCai Xu}
+
+\contactInfo{xcaixu@126.com}{(+86)\ 188-9697-0393}{}
+
+\section{\faLightbulbO\ Personal Information}
+  \subsection{\hspace{0.2cm} \textbf{Gender}:\ Male \hspace{5.1cm} \textbf{Birth Date}:\ March 12$^{th}$,1993}
+  \subsection{\hspace{0.2cm} \textbf{Place of Birth}:\ YanCheng,Jiangsu,China \hspace{0.6cm} \textbf{Research Area}:\ Data Mining \& Machine Learning}
+\medskip
+
+
+\section{\faGraduationCap\ Education}
+\datedsubsection{\textbf{Soochow University}, Suzhou, Jiangsu}{2015 - Present}
+\textit{Master candidate} in Computer Science, expected June 2018\\
+\textit{Top 15\%}
+
+\datedsubsection{\textbf{Southeast University Chengxian College}, Nanjing, Jiangsu}{2011 - 2015}
+\textit{B.E} in Computer Science \& Technology \\
+\textit{Top 5\%}
+\medskip
+
+
+\section{\faUsers\ Experience}
+\datedsubsection{\textbf{Predict Relationship Strength on Location-Based Social Network}}{Jan.2016 - Feb.2017}
+\role{Attributes:}{Machine Learning Project}
+\role{Role:}{The Only Contributor}
+\role{Main Tools:}{Python3,\ Linux,\ C++,\ MySql,\ Scikit-Learn,\ XGBoost}
+\textit{\ \ \ \ Using\ Stanfrd\ University\ open\ source\ SNAP\ data\(nearly\ 100\ million\ check-in\ data,\ millions\ of\ users\)\ to\ build\ a\ classification\ model\ to\ predict\ strength\ of\ social\ relations\ between\ users.\ For\ any\ users\ pairs,\ the\ user\ relationship\ strength\ is\ outputted\ from\ from\ high\ to\ low\ according\ to\ the\ model. }
+\begin{itemize}
+  \item Building platform(Install Linux System, modeling tools and DBMS)
+  \item Data Preprocess and Management
+  \item Coding(Extract features from multi-views, construct classifier model, optimize model parameters)
+\end{itemize}
+\medskip
+
+
+\datedsubsection{\textbf{Urban Track Similarity Computing System}}{Mar.2016-Aug.2016}
+\role{Attributes:}{Competition Project(China Software Cup)}
+\role{Role:}{Project Leader}
+\role{Main Tools:}{Java,\ Python3,\ JS,\ UML,\ Linux,\ Scikit-Learn}
+\textit{\ \ \ \ We\ use\ national\ nearly\ 30\ million\ orbital\ data\ to\ establish\ similarity\ calculation\ platform.\ The\ platform\ can\ response\ user\ request\ and\ calculate\ the\ similarity\ of\ random\ two\ tracks\ rapidly.\ And\ it\ can\ find\ the\ most\ similar\ track\ with\ the\ current\ given\ track,\ and\ then\ draw\ the\ track\ dynamically\ with\ BaiDu\ Map. }
+\begin{itemize}
+  \item Data clustering and management;
+  \item BS mode. Web Interface with JSP, CSS and DIV;
+  \itme 
+  \item 后台Java实现，构建基于聚类簇的数据结构(以响应快速读取操作);定义相似度并设计高效算法;
+\end{itemize}
+\medskip
+
+
+
+
+
+
+
+
+
+
+\datedsubsection{\textbf{xxx Projects}}{Jan. 2015 -- Present}
+\role{C, Python, Django, Linux}{Individual Projects, collaborated with xxx}
+Brief introduction: xxx
+\begin{itemize}
+  \item Implemented xxx feature
+  \item Optimized xxx 5\%
+  \item xxx
+\end{itemize}
+
+
+
+
+
+\datedsubsection{\textbf{\LaTeX\ r茅sum茅 template}}{May. 2015 -- Present}
+\role{\LaTeX, Maintainer}{Individual Projects}
+An elegant \LaTeX\ r茅sum茅 template, https://github.com/billryan/resume
+\begin{itemize}
+  \item Easy to be further customized or extended
+  \item Full support for unicode characters (e.g. CJK) with \XeLaTeX\
+  \item FontAwesome 4.5.0 support
+\end{itemize}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ Skills}
+\begin{itemize}[parsep=0.5ex]
+  \item Programming Languages: C == Python > C++ > Java
+  \item Platform: Linux
+  \item Development: Web, xxx
+\end{itemize}
+
+\section{\faHeartO\ Honors and Awards}
+\datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
+\datedline{Other awards}{2015}
+
+\section{\faInfo\ Miscellaneous}
+\begin{itemize}[parsep=0.5ex]
+  \item Blog: http://your.blog.me
+  \item GitHub: https://github.com/username
+  \item Languages: English - Fluent, Mandarin - Native speaker
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}

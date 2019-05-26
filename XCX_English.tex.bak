@@ -1,0 +1,125 @@
+\documentclass{resume}
+
+\begin{document}
+\pagenumbering{gobble}
+
+\name{Caixu Xu}
+
+\contactInfo{csxucaixu@gmail.com}{(+86)\ 188-9697-0393}{}
+
+\section{\faLightbulbO\ Personal Information}
+  \subsection{\hspace{0.2cm} \textbf{Gender}:\ Male \hspace{4.8cm} \textbf{Birth Date}:\ March 12$^{th}$,1993}
+  \subsection{\hspace{0.2cm} \textbf{Place of Birth}:\ Yancheng,Jiangsu,China \hspace{0.45cm} \textbf{Research Area}:\ Research and Application of Big Data}
+\medskip
+
+
+\section{\faGraduationCap\ Education}
+\datedsubsection{\textbf{Soochow University}, Suzhou, Jiangsu}{2015 - Present}
+\textit{Master candidate} in Computer Science, expected June 2018\\
+\textit{Top 15\%}
+
+\datedsubsection{\textbf{Southeast University Chengxian College}, Nanjing, Jiangsu}{2011 - 2015}
+\textit{B.E} in Computer Science \& Technology \\
+\textit{Top 3\%}
+\medskip
+
+
+\section{\faUsers\ Experience}
+\datedsubsection{\textbf{Relationship Strength Prediction on Location-Based Social Network}}{Jan.2016 - Feb.2017}
+\role{Attributes:}{Machine Learning Project}
+\role{Role:}{Independent Accomplisher}
+\role{Main Tools:}{Python3,\ Linux,\ C++,\ MySql,\ Scikit-Learn,\ XGBoost}
+{\ \ \ \ Used\ Stanford\ University\ open\ source\ SNAP\ data(nearly\ 100\ million\ check-in\ data,\ millions\ of\ users)\ to\ build\ a\ classification\ model\ to\ predict\ strength\ of\ social\ relations\ between\ users.\ For\ any\ users\ pairs,\ the\ user\ relationship\ strength\ is\ outputted\ from\ high\ to\ low\ according\ to\ the\ model. }
+\begin{itemize}
+  \item Built platform(Install Linux System, modeling tools and DBMS)
+  \item Data Preprocess and Management
+  \item Coding(Extract features from multi dimensions, construct classifier model, optimize model parameters)
+\end{itemize}
+\medskip
+
+
+\datedsubsection{\textbf{Track Similarity Computing System}}{Mar.2016-Aug.2016}
+\role{Attributes:}{Competition Project(China Software Cup)}
+\role{Role:}{Project Leader}
+\role{Main Tools:}{Java,\ Python3,\ JS,\ UML,\ Linux,\ Scikit-Learn}
+{\ \ \ \ Used\ nearly\ 30\ million\ orbital\ data\ to\ establish\ similarity\ calculation\ platform.\ The\ platform\ can\ response\ to\ users'\ request\ and\ calculate\ the\ similarity\ of\ random\ two\ tracks\ rapidly.\ And\ it\ can\ find\ the\ track\ most\ similar\ to\ the\ current\ given\ track,\ and\ then\ draw\ the\ track\ dynamically. }
+\begin{itemize}
+  \item Data clustering and management;
+  \item BS mode; Web Interface is implemented with JSP, CSS and DIV;
+  \item The server background is implemented in Java, building a clustering-based data structure (respond to a fast read operation), and then defining similarity and designing efficient algorithms;
+\end{itemize}
+\medskip
+
+
+\datedsubsection{\textbf{Mining Game Design}}{Dec.2014-Apr.2015}
+\role{Attributes:}{Graduation Design}
+\role{Role:}{Independent Accomplisher}
+\role{Main Tools:}{Java,\ UML,\ Swing package,\ MySql}
+{\ \ \ \ Analyzed\ the\ requirement\ of\ the\ mine\ game,\ and\ established\ UML\ model(including\ three\ difficulty\ levels).\ And\ then\ designed\ it\ according\ to\ class\ diagram.\ The\ project\ records\ the\ least\ time-consuming\ player,\ and\ writes\ the player\ details\ into\ the\ database.}
+\begin{itemize}
+  \item In the object-oriented analysis stage, established use case and activity diagram; and built game graphical display interface with swing package;
+  \item In the object-oriented designing stage, established class diagram, class association and interaction diagram; then designed recursively generation minefield algorithm and finally coded to realize.
+  \item Set up a complete test case for three levels of testing(function, border, negative).
+\end{itemize}
+\medskip
+
+
+\datedsubsection{\textbf{Residents' Information Management System}}{Jun.2013-Sep.2013}
+\role{Attributes:}{Summer Vacation Internship Program}
+\role{Role:}{Project Contributor}
+\role{Main Tools:}{C\#,\ ASP.Net,\ Html,\ CSS,\ JS}
+{\ \ \ \ Responsible for rectification and add new function: rectified the users' interface and information selection module(rewrite sql), and added map display cell module.}
+\begin{itemize}
+  \item ASP.Net framework, used html, CSS, JS for the foreground;
+  \item Used C\# language for the background , and MySql for the database;
+  \item Greatly improved the interaction, and made the UI more concise and generous after the revision.
+\end{itemize}
+\medskip
+
+
+\section{\faCogs\ IT Skills}
+\begin{itemize}[parsep=0.5ex]
+  \item Programming Languages:\ Python,\ C++,\ C,\ Shell,\ Java;
+  \item Database System:\ MySql,\ Oracle;
+\end{itemize}
+\medskip
+
+
+% \section{\faLanguage\ Languages}
+% \begin{itemize}[parsep=0.5ex]
+%   \item Chinese(Mandarin):\ Native
+%   \item English:\ CET-4
+% \end{itemize}
+% \medskip
+
+
+\section{\faExpand\ Social Activities}
+\datedline{\textit{Assistant of Computer Science \& Technology,}{\ \ Southeast University Chengxian College}}{2013}
+\datedline{\textit{Vice-minister of DV Studio Technology}}{2012}
+\datedline{\textit{Vice-minister of Science \& Technology Association}}{2012}
+\medskip
+
+
+\section{\faStar\ Honors and Awards}
+\datedline{\textit{User Social Relations Prediction Software(Computer Software Copyright)}}{May.2016}
+\datedline{\textit{The Third-price Scholarship of Soochow University}}{2015-2016}
+\datedline{\textit{Excellent Graduates of Southeast University Chengxian College}}{Jun.2015}
+\datedline{\textit{Merit Student of Southeast University Chengxian College}}{2013-2014}
+\datedline{\textit{The First-price Scholarship of Southeast University Chengxian College}}{2013-2014}
+\datedline{\textit{National Computer C Language Proficiency Certificate}}{2013}
+\datedline{\textit{Jiangsu Province Computer VFP Ability Level Certificate}}{2013}
+\datedline{\textit{The Second-prize Scholarship of College}}{2012-2013}
+\datedline{\textit{The Third-prize Scholarship of College}}{2012-2013}
+\datedline{\textit{The Third-prize Scholarship of College}}{2011-2012}
+\medskip
+
+
+\section{\faStarO\ Contest}
+\datedline{\textit{DataCastle: Traffic Line Access Time Forecast, Rank 26}}{Jan.2017}
+\datedline{\textit{The 3RD Award of the 5$^{th}$ "China Software Cup" Software Design Competition}}{Aug.2016}
+\datedline{\textit{The Second-prize of the 5$^{th}$ Program Design Competition of Southeast University}}{May.2014}
+\datedline{\textit{The First Prize of College Web Design Competition}}{Dec.2011}
+\medskip
+
+
+\end{document}
