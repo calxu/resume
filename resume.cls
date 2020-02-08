@@ -72,10 +72,10 @@
 }
 
 \newcommand{\contactInfo}[3]{
-  \centerline{\sffamily\large{\faEnvelope\ {#1} \textperiodcentered\ \faPhone\ {#2}}
+  \centerline{\sffamily\large{\faEnvelopeO\ {#1} \textperiodcentered\ \faPhone\ {#2}}
     \ifthenelse{\isempty{#3}}%
       { } % if {#3} is empty
-      {\textperiodcentered\ \faLink\ {#3} } % homepage, no space before \text...
+      {\textperiodcentered\ \faGlobe\ {#3} } % homepage, no space before \text...
   }
   \vspace{1.5ex}
 }

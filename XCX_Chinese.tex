@@ -1,226 +1,314 @@
 % !TEX TS-program = xelatex
-% !TEX encoding = UTF-8 Unicode
-% !Mode:: "TeX:UTF-8"
 
+%% LAYOUTS	
 \documentclass{resume}
-\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
-%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
-\usepackage{linespacing_fix} % disable extra space before next section
-\usepackage{cite}
+
+%% FONTS
+\usepackage{zh_CN-Adobefonts_external}      % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+
+
+
+
+
+
+
+
+
 
 \begin{document}
-\pagenumbering{gobble} % suppress displaying page number
 
-\name{徐彩旭}
+% suppress displaying page number
+\pagenumbering{gobble}       
 
-% {E-mail}{mobilephone}{homepage}
-% be careful of _ in emaill address
-\contactInfo{csxucaixu@gmail.com}{176-1079-3303}{https://calxu.github.io/about/}
-% {E-mail}{mobilephone}
-% keep the last empty braces!
-% \contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
 
-\section{\faLightbulbO\  基本信息}
-  \subsection{\hspace{0.4cm} \textbf{性\ \ 别}:\ 男   \hspace{3.5cm}  \textbf{学\ \ 历}:\ 硕士 \hspace{3.5cm}  \textbf{政治面貌}:\ 中共党员}
 
-  \subsection{\hspace{0.4cm} \textbf{年\ \ 龄}:\ 27   \hspace{3.5cm}  \textbf{籍\ \ 贯}:\ 江苏 \hspace{3.5cm}  \textbf{求职意向}:\ 大数据方向}
+
+
+
+
+
+
+
+\name{徐 \ 彩 \ 旭}
+
+\medskip
+
+\contactInfo {csxucaixu@gmail.com}    {176-1079-3303}    {https://calxu.github.io/about/} 
+
+
+
+
+
+
+
+
+
+
+\section{   \faHome  \  基本信息}
+   \subsection{  \hspace{ 0.4cm }     \textbf{性\ \ 别}:    \ 男   
+                        \hspace{ 3.2cm }     \textbf{学\ \ 历}:   \ 硕士 
+                        \hspace{ 3.2cm }     \textbf{政治面貌}: \ 中共党员 }
+
+   \subsection{  \hspace{ 0.4cm }     \textbf{年\ \ 龄}:     \ 27   
+                        \hspace{ 3.2cm }     \textbf{籍\ \ 贯}:     \ 江苏 
+                        \hspace{ 3.2cm }     \textbf{求职意向}:  \ 数据挖掘方向 }
   
 \medskip
 
 
-\section{\faGraduationCap\  教育/工作背景}
-\datedsubsection{\textbf{度小满金融（前百度金融）}, 北京}{201807-至今}
-\textit{数据挖掘工程师}\ 涉及模型/策略/分析 \par
+
+
+
+
+
+
+
+
+\section{   \faUser    \  个人背景}
+
+\datedsubsection{   \textbf{京东}， 北京大兴区  }                                             {2020.02-至今}
+   \faUserMd   \textit{   数据挖掘工程师，风控 }
+
+\datedsubsection{   \textbf{度小满金融（前百度金融）}， 北京海淀区  }         {2018.07-2020.01}
+   \faUserMd   \textit{   数据挖掘工程师，涉及风控模型/策略/分析 }
+
+\datedsubsection{   \textbf{苏州大学}， 江苏苏州  }                                         {2015.09-2018.07}
+   \faGraduationCap   \textit{  硕士，计算机技术（专业排名Top 15\%） }
+
+\datedsubsection{   \textbf{东南大学成贤学院}， 江苏南京}         {2011.09-2015.07}
+   \faGraduationCap   \textit{  学士，计算机科学与技术（专业排名Top 3\%） }
+
 \medskip
 
-\datedsubsection{\textbf{苏州大学}, 江苏,苏州}{2015-2018}
-\textit{硕士}\ 计算机技术 \par
-\textit{专业排名前15\%}
-
-\datedsubsection{\textbf{东南大学成贤学院}, 江苏,南京}{2011-2015}
-\textit{学士}\ 计算机科学与技术 \par
-\textit{专业排名前3\%}
-\medskip
 
 
-\section{\faUsers\ 项目经历}
 
-\datedsubsection{\textbf{风控挖掘子模型}}{2019.02-至今}
-\role{项目属性:}{线上风控子模型分}
-\role{项目角色:}{项目主要贡献者}
-\role{主要工具:}{XGBoost,\ Liblinear}
-{\ \ \ \ 挖掘强相关的子模型分供模型和策略使用，涉及技术主要有ETL、RFM挖掘方法、评估;}
-\begin{itemize}
-  \item 平台环境搭建（Hadoop/MapReduce/Hive/Spark）
-  \item 数据挖掘：RFM动态窗口滑动子模型、底层变量自动化ETL与例行；
-  \item 效果评估：单变量相关性分析（梯度/WOE/IV）的评估；
+
+
+
+
+
+
+\section{   \faCogs    \  个人技能}
+
+\begin{itemize}  [parsep=0.5ex]
+
+   \item   \textbf{编程语言}：Python = Shell = SQL > awk > JAVA > C/C++ > C\#;
+   \item    \textbf{大数据工具}：Linux、Hadoop、MapReduce、Hive；了解Spark;
+   \item    \textbf{数据库}：MySQL/Oracle、PostgreSQL、Hive、KV键值对数据库；
+   \item    \textbf{机器学习框架}：XGBoost、Liblinear、Word2Vec、LDA；
+   \item    \textbf{软件工程}：Git/Github/Gitlab、UML、OOA/OOD；
+  \item   \textbf{语言水平}：英语读写流利，CET-4/CET-6；
+  \item   \textbf{其它}：LaTeX、MarkDown、Office系列、数据可视化、简单静态Web设计；
+ 
 \end{itemize}
+
 \medskip
 
-\datedsubsection{\textbf{黑名单系统}}{2018.07-至今}
-\role{项目属性:}{风控基础设施}
-\role{项目角色:}{项目主要贡献者}
-\role{主要工具:}{Python,\ Linux,\ Shell,\ MySQL,\ Hadoop,\ MapReduce,\ Hive,\ XGBoost,\ Liblinear}
-{\ \ 黑名单系统重构与升级，涉及技术有ETL、分布式爬虫、图关联、RFM挖掘子模型、自动化评估;}
-\begin{itemize}
-  \item 数据挖掘：分布式爬虫、图关联网络关联、RFM动态窗口滑动子模型；
-  \item 数仓管理：数仓自动化ETL、数据库自动化管理监控；
-  \item 效果评估：重要指标（Precision/命中数/命中率/Lift）的自动化评估、自动化展示；
+
+
+
+
+
+
+
+
+
+\section{   \faUsers    \ 项目经历}
+
+
+
+\datedsubsection{  \textbf{ 风控挖掘子模型 }  }                      {2019.02-2019.11}
+
+\begin{itemize}  [parsep=0.5ex]
+
+  \item   \textbf{  项目属性:  }   {  度小满金融信贷产品-线上风控子模型分  }                
+  \item   \textbf{  项目角色:  }   {  项目主要贡献者  }
+  \item   \textbf{  主要工具:  }   {  XGBoost, \ Liblinear  }
+
 \end{itemize}
+
+
+{    \ \ \ \ 挖掘强相关的子模型分供模型和策略使用，主要有ETL、RFM挖掘方法、效果评估。
+主要涉及技术点如下：
+(a)平台环境搭建（Hadoop/MapReduce/Hive/Spark）；
+(b)数据挖掘：RFM动态窗口滑动子模型、底层特征自动化ETL与例行；
+(c)效果评估：单变量相关性分析（梯度/WOE/IV）的评估。}
+
 \medskip
 
 
-\datedsubsection{\textbf{基于位置社交网络的用户关系强度预测}}{2016.01-2017.02}
-\role{项目属性:}{硕士毕业设计（机器学习项目）}
-\role{项目角色:}{独立研发完成}
-\role{主要工具:}{Python3,\ Linux,\ C++,\ MySql,\ Scikit-Learn,\ XGBoost}
-{\ \ \ \ 利用斯坦福大学开源SNAP数据(近亿条签到数据,几百万用户)构建分类模型,模型预测任意用户对关系强度。
-在召回率相同的情况下,精确度比最好的模型提高10\%。}
-\begin{itemize}
-  \item 平台搭建(Linux系统、Python3、XGBoost)；
-  \item 数据ETL处理与管理，多维度抽取特征、构建多视角分类器模型、模型调测；
+
+
+
+\datedsubsection{  \textbf{ 黑名单系统 }  }                             {2018.07-2019.08}
+
+\begin{itemize} [parsep=0.5ex]
+
+\item   \textbf{  项目属性:  }  {  度小满金融信贷产品-线上风控基础设施  }
+\item   \textbf{  项目角色:  }  {  项目主要贡献者  }
+\item   \textbf{  主要工具:  }  {  Python, \ Linux, \ Shell, \ MySQL, \ Hadoop, \ MapReduce, \ Hive, \ XGBoost, \ Liblinear  }
+
 \end{itemize}
+
+
+{  \ \ \ \ 黑名单系统重构与升级，主要有ETL、分布式爬虫、图关联、RFM挖掘子模型、自动化评估。
+主要涉及技术点如下：
+(a) 数据挖掘：分布式爬虫、图关联网络关联、RFM动态窗口滑动子模型；
+(b) 数仓管理：数仓自动化ETL、数据库自动化管理监控；
+(c) 效果评估：重要指标（Precision/命中数/命中率/Lift）的自动化评估、自动化监控。}
+
 \medskip
 
 
-\datedsubsection{\textbf{轨迹相似度计算系统}}{2016.03-2016.08}
-\role{项目属性:}{比赛项目(第五届中国软件杯决赛三等奖)}
-\role{项目角色:}{项目主要负责人}
-\role{主要工具:}{Java,\ Python3,\ JS,\ UML,\ Linux}
-{\ \ \ \ 利用全国近三千万轨迹数据搭建相似度计算平台,平台可以快速响应请求:计算任意两条轨迹的相似度;任意画出一
-条轨迹,从数据库中快速检索出与当前轨迹最相似的轨迹,并以地图显示的形式反馈给用户。}
-\begin{itemize}
-  \item 数据的聚类处理与存储;
-  \item 该项目采用BS模式,前台采用JSP+CSS+DIV;
-  \item 后台Java实现，构建基于聚类簇的数据结构(以响应快速读取操作);定义相似度并设计高效算法;
+
+
+
+\datedsubsection{  \textbf{基于时空上下文共现的用户关系强度预测}  }                   {2016.01-2017.02}
+
+\begin{itemize} [parsep=0.5ex]
+
+\item   \textbf{ 项目属性: }   {硕士毕业设计}
+\item   \textbf{ 项目角色: }   {独立研发}    
+\item   \textbf{ 主要工具: }  { Python3,  \ Linux,  \ C++,  \ MySql,  \ Scikit-Learn,  \ XGBoost }
+
 \end{itemize}
+
+
+{ \ \ \ \ 利用开源数据(近亿条签到数据)构建分类模型，模型预测任意用户对关系强度。在召回率相同的情况下，精确度比最好的模型提高10\%。
+主要涉及技术点如下：
+(a) 平台搭建（Linux系统、Python3、XGBoost）；
+(b) 数据ETL处理与管理，多维度抽取特征、构建多视角分类器模型、模型调测。}
+
 \medskip
 
 
-\datedsubsection{\textbf{公司信誉度评估分类系统}}{2015.06-2015.11}
-\role{项目属性:}{实习项目(苏州汇誉通数据科技有限公司)}
-\role{项目角色:}{项目贡献者}
-\role{主要工具:}{Python3,\ Linux,\ Scikit-Learn}
-{\ \ \ \ 到各大信息公开网站采集公司的异常记录、公司基本属性等数据;根据数据构造特征;对部分公司进行聚类标记,构建
-随机森林回归预测模型,模型输出公司所属类别。}
-\begin{itemize}
-  \item 数据的采集与清洗;
-  \item 数据存储与管理;
-  \item 特征工程与模型调测;
+
+
+
+\datedsubsection{  \textbf{轨迹相似度计算系统}  }                                 {2016.03-2016.08}
+
+\begin{itemize} [parsep=0.5ex]
+
+  \item   \textbf{ 项目属性: }      {比赛项目(第五届中国软件杯决赛三等奖)}
+  \item   \textbf{ 项目角色: }      {项目主要负责人}
+  \item   \textbf{ 主要工具: }      { Java, \ Python3, \ JS, \ UML, \ Linux }
+
 \end{itemize}
+
+
+{ \ \ \ \ 利用全国轨迹数据搭建计算平台，快速响应计算相似度的请求，并从数据库中快速检索出与之最相似的轨迹。
+主要涉及技术点如下：
+(a) 数据的聚类处理与存储;
+(b) 采用BS模式，前端采用JSP+CSS+DIV；后端用Java实现构建基于聚类簇的数据结构，以响应快速读取响应计算相似度。 }
+
 \medskip
 
 
-\datedsubsection{\textbf{扫雷游戏设计}}{2014.12-2015.04}
-\role{项目属性:}{课程毕业设计}
-\role{项目角色:}{独立设计开发}
-\role{主要工具:}{Java,\ UML,\ Swing包,\ MySql}
-{\ \ \ \ 分析扫雷游戏需求并用UML建模(包含初级、中级和高级三个级别),记录进行游戏所花费的时间,完成游
-戏则记录最快玩家所花费的时间,并将这些信息写入数据库。}
-\begin{itemize}
-  \item 利用UML建立用例图和活动图;游戏的图形展示界面利用swing包搭建;
-  \item 利用UML建立详细类图、类关联图及交互图;并设计递归生成雷区的算法;
-  \item 设置完整的测试用例对游戏进行功能、边界、负面三个层面的测试;
+
+
+
+\datedsubsection{  \textbf{公司信誉度评估分类系统}  }              {2015.06-2015.11}
+
+\begin{itemize} [parsep=0.5ex]
+
+  \item    \textbf{  项目属性:  }      { 实习项目 }
+  \item       \textbf{  项目角色:  }       { 项目贡献者 }
+  \item       \textbf{  主要工具:  }       { Python3, \ Linux, \ Scikit-Learn, \ MySQL }
+
 \end{itemize}
+
+
+{\ \ \ \ 到各大信息公开网站采集公司的异常记录、基本属性等数据，构造特征并对部分公司进行聚类标记，从而构建随机森林分类预测模型，预测公司所属类别。
+主要涉及的技术点如下：
+(a) 数据的采集与清洗;
+(b) 数据存储与管理;
+(c) 特征工程与模型调测。
+  
 \medskip
 
 
-\datedsubsection{\textbf{居民信息管理系统}}{2013.06-2013.09}
-\role{项目属性:}{暑假实习项目(盐城思源网络科技有限公司)}
-\role{项目角色:}{项目贡献者}
-\role{主要工具:}{C\#,\ ASP.Net,\ Html,\ CSS,\ JS}
-{\ \ \ \ 对公司原始的客户信息系统进行升级,本人负责整改与添加新功能,整改用户的UI 界面,整改信息筛选模
-块(改写Sql语句),添加地图显示小区位置模块。}
-\begin{itemize}
-  \item 整体采用ASP.Net框架，前台使用html、CSS、JS技术;
-  \item 后台使用的是C\#语言，数据库使用MySql数据库;
-  \item 改版后的客户信息管理系统交互性极大提高，界面更加简洁大方;
+
+
+
+\datedsubsection{  \textbf{扫雷游戏设计}  }                       {2014.12-2015.04}
+
+\begin{itemize} [parsep=0.5ex]
+
+\item  \textbf{ 项目属性: }      {本科毕业设计}
+\item   \textbf{ 项目角色: }        {独立研发}
+\item    \textbf{ 主要工具: }       {Java,\ UML,\ Swing包,\ MySQL}
+
 \end{itemize}
+
+
+{\ \ \ \ 分析扫雷游戏需求并用UML建模，玩家信息与数据库对接。
+主要涉及技术点如下：
+(a) 建立UML用例图和活动图，游戏的图形界面展示;
+(b) 建立UML详细类图、类关联图及交互图，并设计生成雷区的算法;
+(c) 设置测试用例对游戏进行功能、边界、负面三个层面测试。 }
+  
 \medskip
 
-% Reference Test
-%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
-%An xxx optimized for xxx\cite{verma2015large}
-%\begin{itemize}
-%  \item main contribution
-%\end{itemize}
 
-\section{\faLanguage\ 语言水平}
-% increase linespacing [parsep=0.5ex]
+
+
+
+
+
+
+
+
+\section{   \faTrophy   \ 获奖情况}
+
+
+\begin{itemize} [parsep=0.5ex]
+
+% 硕士期间
+\item   \datedline{ 专利                    $\times$    1    }                                                   {2015.09-2018.07}
+\item   \datedline{ 计算机软件著作权        $\times$  2    }                                           {2015.09-2018.07}
+\item   \datedline{ 全国软件设计大赛决赛三等奖  $\times$ 1    }                                    {2015.09-2018.07}
+
+% 本硕期间
+\item   \datedline{ 计算机科学与技术学院奖学金      $\times$  6  }                                  {2011.09-2018.07}
+
+% 本科期间
+\item   \datedline{ 计算机能力等级证书                   $\times$    2 }                                {2011.09-2015.07}
+\item   \datedline{ 本科优秀毕业生兼三好学生        $\times$  1 }                                 {2011.09-2015.07}
+\item   \datedline{ 本科软件设计大赛三等奖           $\times$  2 }                                 {2011.09-2015.07}
+
+\end{itemize}
+
+
+\medskip
+
+
+
+
+
+
+
+
+
+
+\section{   \faBook    \ 论文发表}
+
 \begin{itemize}[parsep=0.5ex]
-  \item 中文(普通话):母语
-  \item 英语: 听、说良好,读、写流利, CET-4/CET-6
+
+  \item \textbf{Caixu Xu} and Ruirui Bai. Inferring Social Ties from Multi-view Spatiotemporal Co-occurrence (APWeb-WAIM 2018，第一作者，CCF C类)
+  \item \textbf{Caixu Xu}, JianFeng Yan and etc.   Context Co-occurrence Based Relationship Prediction in Spatiotemporal Data （CMSA 2018, 第一作者，EI检索）
+  
 \end{itemize}
-\medskip
 
-
-\section{\faCogs\ IT 技能}
-% increase linespacing [parsep=0.5ex]
-\begin{itemize}[parsep=0.5ex]
-  \item 编程语言：Python = Shell = SQL > awk > JAVA > C/C++ > C\#;
-  \item 大数据工具：熟悉 Linux、Hadoop、MapReduce、Hive；了解Spark;
-  \item 机器学习框架：熟悉 XGBoost、Liblinear、Word2vec、LDA；
-  \item 数据库：熟悉 MySQL、Oracle、PostgreSQL、Hive、KV存储的数据库；
-  \item 软件工程：Git/Github/Gitlab、UML、OOA/OOD；
-\end{itemize}
 \medskip
 
 
 
 
 
-\section{\faExpand\ 社会活动}
-\datedline{\textit{计算机科学与技术学院学工助理,}{\ \ 东南大学成贤学院}}{2013}
-\datedline{\textit{院DV工作室技术部副部长}}{2012}
-\datedline{\textit{院科学与技术协会副部长}}{2012}
-\medskip
-
-
-\section{\faStar\ 获奖情况}
-\datedline{\textit{基于位置社交网络的用户关系强度预测方法、装置及设备(专利)}}{2018.05}
-\datedline{\textit{轨迹相似度分析与预测系统(计算机软件著作权)}}{2018.01}
-\datedline{\textit{基于时空数据的用户社交关系强度预测软件(计算机软件著作权)}}{2016.05}
-\datedline{\textit{苏州大学三等奖学金}}{2015-2016}
-\datedline{\textit{东南大学成贤学院优秀毕业生}}{2015.06}
-\datedline{\textit{东南大学成贤学院三好学生}}{2013-2014}
-\datedline{\textit{东南大学成贤学院综合一等奖学金}}{2013-2014}
-\datedline{\textit{全国计算机二级C语言能力等级证书}}{2013}
-\datedline{\textit{江苏省高等学校计算机二级VFP能力等级证书}}{2013}
-\datedline{\textit{院级二等奖学金}}{2012-2013}
-\datedline{\textit{院级三等奖学金}}{2012-2013}
-\datedline{\textit{院级三等奖学金}}{2011-2012}
-\medskip
-
-
-\section{\faStarO\ 学科竞赛}
-\datedline{\textit{DataCastle:交通线路通达时间预测, 26名}}{2017.01}
-\datedline{\textit{第五届“中国软件杯”大学生软件设计大赛决赛三等奖}}{2016.08}
-\datedline{\textit{东南大学第五届程序设计竞赛二等奖}}{2014.05}
-\datedline{\textit{院级网页设计制作大赛一等奖}}{2011.12}
-\medskip
-
-
-\section{\faLanguage\ 论文发表}
-% increase linespacing [parsep=0.5ex]
-\begin{itemize}[parsep=0.5ex]
-  \item Inferring Social Ties from Multi-view Spatiotemporal Co-occurrence (第一作者，CCF C类)
-  \item Context Co-occurrence Based Relationship Prediction in Spatiotemporal Data （第一作者，EI检索）
-\end{itemize}
-\medskip
 
 
 
-\section{\faLightbulbO\  自我评价}
-\begin{itemize}[parsep=0.5ex]
-  \item 热爱代码，代码洁癖，注重代码的可读性；
-  \item 具备数据思维；对从事大数据方向的工作有很强的热情；
-\end{itemize}
-\medskip
 
 
-
-%% Reference
-%\newpage
-%\bibliographystyle{IEEETran}
-%\bibliography{mycite}
 \end{document}
